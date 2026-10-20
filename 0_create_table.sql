@@ -4,12 +4,12 @@
     inriktnings_namn VARCHAR2(100) NOT NULL,
     beslut VARCHAR2(10) NOT NULL,
     län VARCHAR2(20) NOT NULL,
-    YH-poäng INTEGER(3) NOT NULL,
+    YH-poäng NUMBER(3) NOT NULL,
     studieform VARCHAR2(10) NOT NULL,
-    sökta_utbildnings_omgångar INTEGER(3) NOT NULL, 
-    beviljade_utbildnings_omgångar INTEGER(3) NOT NULL,
-    sökta_platser_totalt INTEGER(3) NOT NULL,
-    beviljade_platser_totalt INTEGER(3) NOT NULL
+    sökta_utbildnings_omgångar NUMBER(3) NOT NULL, 
+    beviljade_utbildnings_omgångar NUMBER(3) NOT NULL,
+    sökta_platser_totalt NUMBER(3) NOT NULL,
+    beviljade_platser_totalt NUMBER(3) NOT NULL
 );
 
 EXIT
