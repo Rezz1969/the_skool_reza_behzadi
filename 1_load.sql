@@ -1,0 +1,3 @@
+LOAD ao_2025 ao_2025.csv NEW
+
+EXIT
