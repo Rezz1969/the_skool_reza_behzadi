@@ -8,11 +8,10 @@ SELECT
     COUNT(*) AS ANTAL_BEVILJADE
 FROM 
     ao_2025
-    WHERE UTBILDNINGSOMRÅDE='Data/IT' AND BESLUT='Avslag'
--- Grupperar efter Utbildningsområde
+    WHERE UTBILDNINGSOMRÅDE='Data/IT' AND BESLUT='Beviljad'
+-- Grupperar efter Utbildningsnamn
 GROUP BY 
     UTBILDNINGSNAMN
-
 -- Sorterar i fallande ordning
 ORDER BY 
     ANTAL_BEVILJADE DESC;
