@@ -11,7 +11,7 @@ SELECT
 -- Antal beviljade ansökningar som är platsbundna    
     COUNT(CASE WHEN BESLUT='Beviljad' AND STUDIEFORM='Bunden' THEN 1 END) AS ANTAL_BEVILJADE_BUNDNA,
 -- Antal beviljade ansökningar som är på distans    
-    COUNT(CASE WHEN BESLUT='Beviljad' AND STUDIEFORM='Distans' THEN 1 END) AS ANTAL_BEVILJADE_BUNDNA 
+    COUNT(CASE WHEN BESLUT='Beviljad' AND STUDIEFORM='Distans' THEN 1 END) AS ANTAL_BEVILJADE_DISTANS 
 FROM 
     ao_2025
 -- Grupperar efter Utbildningsområde
