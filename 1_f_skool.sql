@@ -1,0 +1,22 @@
+SET PAGESIZE 2000
+
+DESC system.ao_2025;
+
+SELECT 
+    UTBILDNINGSANORDNARE_ADMINISTR,   
+    UTBILDNINGSNAMN,
+-- Totalt antal beviljade ansökningar per utbildningsnamn    
+    COUNT(*) AS ANTAL_BEVILJADE
+FROM 
+    ao_2025
+    WHERE UTBILDNINGSOMRÅDE='Data/IT' AND BESLUT='Beviljad'
+-- Grupperar efter Utbildningsnamn
+GROUP BY 
+    UTBILDNINGSANORDNARE_ADMINISTR,
+    UTBILDNINGSNAMN
+-- Sorterar i fallande ordning
+ORDER BY 
+    ANTAL_BEVILJADE DESC;
+
+EXIT
+
