@@ -11,6 +11,8 @@ För detta behöver de få svar på följande:
 - Gärna 2-3 utbildningar ska bli godkända
 - Även beviljande grad ska vara så stor som möjligt
 
+Till vår hjälp har vi använt oss av excel-filen ao_2025.xlsx
+
 Svar på uppgift 1 finns i directory Uppgift_1.
 
 Svar på uppgift 3 finns i drectory Uppgift_3.
