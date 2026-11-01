@@ -15,8 +15,7 @@ GROUP BY
 -- Sorterar i fallande ordning
 ORDER BY 
     ANTAL_AVSLAGNA DESC
--- Det är många ansökningar som är avslagna (135). Man kan begränsa till de första 50 om man vill
---    FETCH FIRST 50 ROWS ONLY;
+-- Det är många ansökningar som är avslagna (135). 
 
 EXIT
 
