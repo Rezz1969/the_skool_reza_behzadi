@@ -21,5 +21,4 @@ Exempel på vilka svar som finns kan ni hitta i directory Screenshots.
 
 Här nedan går det att se hur the_skool-trädet ser ut:
 
-!(the_skool_tree](Screenshots/the_skool.png)
-
+![the_skool_tree](Screenshots/the_skool.png)
