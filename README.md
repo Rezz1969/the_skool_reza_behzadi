@@ -9,4 +9,12 @@ För detta behöver de få svar på följande:
 - Var finns störst chans att få ansökningarna beviljade?
 - Hur har statistiken sett ut senaste året och vad vill myndigheten att satsa på?
 - Gärna 2-3 utbildningar ska bli godkända
-- Även beviljande grad ska vara så stor som möjligt.
+- Även beviljande grad ska vara så stor som möjligt
+
+Svar på uppgift 1 finns i directory Uppgift 1.
+
+Svar på uppgift 3 finns i drectory Uppgift 3.
+
+Exempel på vilka svar som finns kan ni hitta i directory Screenshots.
+
+
