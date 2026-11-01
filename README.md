@@ -1,4 +1,4 @@
-# the_skool_reza_behzadi
+  the_skool_reza_behzadi
 
 Det här uppdraget gäller the_skool, som är en ny men relativ liten aktör.
 Utifrån intervjun med stakeholdern, har företaget inga begränsningar gällande utbildning eller geografiskt område.
@@ -19,4 +19,7 @@ Svar på uppgift 3 finns i drectory Uppgift_3.
 
 Exempel på vilka svar som finns kan ni hitta i directory Screenshots.
 
+Här nedan går det att se hur the_skool-trädet ser ut:
+
+!(the_skool_tree](Screenshots/the_skool.png)
 
